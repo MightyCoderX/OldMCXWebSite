@@ -107,5 +107,20 @@ body
 .content .aboutme blockquote
 {
     font-size: 20px;
-    text-align: center;
+    margin: 0 0 0 10px;
+}
+
+@media screen and (max-width: 900px)
+{
+    .header
+    {
+        text-align: center;
+    }
+
+    .header .navbar
+    {
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+    }
 }
