@@ -119,15 +119,16 @@ body
         float: none;
         margin: 0;
         text-align: center;
+        font-size: 35px;
     }
 
     .header .navbar
     {
         position: absolute;
         transform: translateX(-50%);
-        top: ;
+        top: 65px;
         left: 50%;
-        width: 100%;
         margin: 0;
+        width: fit-content;
     }
 }
