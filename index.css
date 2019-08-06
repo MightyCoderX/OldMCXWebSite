@@ -41,11 +41,11 @@ body
     background: radial-gradient(#333, #222);
     grid-area: header;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .header .title
 {
-    width: 100%;
     text-align: left;
     color: white;
     margin: 20px 0 0 100px;
@@ -112,14 +112,21 @@ body
 
 @media screen and (max-width: 900px)
 {
-    .header
+    .header .title
     {
-        text-align: center;
+        width: 100%;
+        float: none;
         margin: 0;
+        text-align: center;
     }
 
     .header .navbar
     {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 20%;
+        left: 50%;
         width: 100%;
+        margin: 0;
     }
 }
