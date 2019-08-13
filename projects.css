@@ -119,6 +119,7 @@ body
 
 .content .projects ul::marker
 {
+    content: ">";
     background: #444;
     color: #444;
     border: none;
