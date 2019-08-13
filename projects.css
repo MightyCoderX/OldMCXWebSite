@@ -92,7 +92,7 @@ body
     transform: translateX(-50%);
     left: 50%;
     width: 70%;
-    height: 60%;
+    height: 300px;
     color: white;
     background: gray;
     box-sizing: border-box;
@@ -107,19 +107,38 @@ body
 .content .projects blockquote
 {
     font-size: 20px;
-    margin: 0 0 0 10px;
+    margin: 20px 0 0 10px;
     text-align: center;
+    color: #02fc2c;
 }
 
 .content .projects ul
 {
     margin: 50px 0 0 20%;
-    list-style-type: circle;
+    list-style-image: url("li.ico");
+    font-size: 20px;
 }
+
+/* .content .projects li
+{
+} */
+
+.content .projects li a
+{
+    position: relative;
+    height: 100%;
+    top: -10px;
+} 
+
+/* .content .projects li::before
+{
+    content: "";
+    color: #02ffea;
+    font-weight: 900;
+} */
 
 .content .projects ul::marker
 {
-    content: ">";
     background: #444;
     color: #444;
     border: none;
