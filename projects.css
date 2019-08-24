@@ -56,7 +56,6 @@ body
     filter: drop-shadow(2px 2px 5px white);
     font-size: 40px;
     float: left;
-    opacity: 1;
 }
 
 .header .navbar
@@ -66,7 +65,6 @@ body
     top: 40px;
     margin: 0 100px 20px 0;
     list-style: none;
-    opacity: 1;
 }
 
 .header .navbar li
