@@ -42,7 +42,6 @@ body
 
 .header
 {
-    background: radial-gradient(#333333cc, #222222cc);
     grid-area: header;
     box-sizing: border-box;
     width: 100%;
@@ -75,11 +74,16 @@ body
 
 .header .navbar li a
 {      
-    padding: 5px 10px;
+    padding: 10px 10px;
     text-decoration: none;
     color: white;
-    background: radial-gradient(#777, #555); 
-    border-radius: 2px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+.header .navbar li a:hover
+{
+    background: radial-gradient(#777777bb, #555555bb); 
 }
 
 .content
