@@ -42,11 +42,10 @@ body
 
 .header
 {
-    background: radial-gradient(#333, #222);
+    background: radial-gradient(#333333cc, #222222cc);
     grid-area: header;
     box-sizing: border-box;
     width: 100%;
-    opacity: 0.8;
 }
 
 .header .title
